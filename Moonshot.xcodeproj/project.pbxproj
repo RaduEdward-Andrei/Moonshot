@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		63F64E5A2F705B78007062D5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 63F64E582F705B73007062D5 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		631DE8B12F5B1A4700A37B41 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F64E582F705B73007062D5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		631DE8A82F5B1A4700A37B41 = {
 			isa = PBXGroup;
 			children = (
+				63F64E582F705B73007062D5 /* README.md */,
 				631DE8B32F5B1A4700A37B41 /* Moonshot */,
 				631DE8B22F5B1A4700A37B41 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F64E5A2F705B78007062D5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
